@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>friends</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div>
+        <span class="screen-header__icon"
+          ><i class="fas fa-search fa-2x"></i
+        ></span>
+        <span class="screen-header__icon"
+          ><i class="fas fa-music fa-2x"></i
+        ></span>
+        <span class="screen-header__icon"
+          ><i class="fas fa-cog fa-2x"></i
+        ></span>
+      </div>
+    </header>
+
+    <a id="friends-names-link">
+      <i class="fas fa-info-circle"></i>
+      Friends Names Display
+      <i class="fas fa-chevron-right"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__image" src="image/kyuhan.jpg" />
+          <div class="user-component__text">
+            <h2 class="user-component__title">Deok</h2>
+            <!-- <h5 class="user-component__subtitle">Let's go to WangDaeBak</h5> -->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span class="friends-screen__channel-header__title">Channel</span>
+          <i class="fas fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__image user-component__image-sm"
+              src="image/kyuhan.jpg"
+            />
+            <div class="user-component__text">
+              <h2 class="user-component__title user-component__title-not-bold">
+                Channel
+              </h2>
+              <!-- <h5 class="user-component__subtitle">Let's go to WangDaeBak</h5> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification2">1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification4"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/1c467ae3e1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
