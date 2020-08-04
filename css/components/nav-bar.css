@@ -18,31 +18,14 @@
 }
 
 .nav__notification2 {
-  color: white;
-  background-color: #ff6229;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  /* display: block; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 20px;
   bottom: 15px;
 }
 
 .nav__notification4 {
-  background-color: #ff6229;
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
-  /* display: block; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  left: 35px;
+  left: 30px;
   bottom: 30px;
 }
 

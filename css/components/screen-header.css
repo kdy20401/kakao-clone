@@ -1,6 +1,7 @@
 .screen-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 50px 20px 30px var(--screen-left-space);
 }
 
@@ -11,4 +12,11 @@
 
 .screen-header__icon {
   margin-left: 30px;
+  position: relative;
+}
+
+.screen-header__notification {
+  position: absolute;
+  top: -15px;
+  right: -5px;
 }

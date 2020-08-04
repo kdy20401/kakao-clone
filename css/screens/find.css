@@ -1,0 +1,127 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 0px 20px 0px;
+  border-bottom: var(--border);
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.recommended-friends {
+  padding-top: 20px;
+  color: var(--gray);
+  border-bottom: var(--border);
+}
+
+.recommended-friends div {
+  font-size: 17px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.open-chat__header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat__header h4 {
+  opacity: 0.7;
+}
+
+.open-chat__header span {
+  opacity: 0.5;
+}
+
+.open-chat__link i {
+  margin-left: -5px;
+}
+
+.open-chat__post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: var(--border);
+}
+
+.open-chat__post__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.open-chat__post__hashtags {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.open-chat__post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.open-chat__post__members img {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.open-chat__post__members span:nth-child(2) {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.open-chat__post__members .dash {
+  background-color: var(--gray);
+  width: 1px;
+  height: 15px;
+  margin: 0px 7px;
+}
+
+.open-chat__post__members .state {
+  color: #f866b1;
+}
+
+.open-chat__photo {
+  position: relative;
+}
+.open-chat__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.open-chat__photo__hearts {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.open-chat__post__column .thumbnail {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.open-chat__post__hashtags:nth-child(2) {
+  text-transform: none;
+}
