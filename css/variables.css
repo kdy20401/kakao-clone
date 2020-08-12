@@ -1,6 +1,6 @@
 :root {
   --yellow: #fae100;
-  --screen-left-space: 20px;
+  --screen-left-right-space: 20px;
   --border: 1px solid rgba(0, 0, 0, 0.1);
   --gray: rgba(0, 0, 0, 0.5);
 }
