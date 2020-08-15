@@ -1,3 +1,6 @@
+.more-screen .user-component {
+  margin-top: 10px;
+}
 .user-component__subtitle__warning {
   color: red;
 }
