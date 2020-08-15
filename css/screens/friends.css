@@ -37,3 +37,27 @@
 .fa-chevron-up {
   color: #d5d5d5;
 }
+
+@keyframes splashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash_screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  animation: splashScreen 0.2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}

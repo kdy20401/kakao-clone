@@ -10,6 +10,7 @@
 @import "components/notification.css";
 @import "components/icons-row.css";
 @import "components/alt-header.css";
+@import "components/only-mobile.css";
 
 /* screens */
 @import "screens/login.css";
