@@ -8,7 +8,6 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  /* margin: 5px 3px; */
 }
 
 .status-bar__column {
@@ -31,5 +30,5 @@
 }
 
 .status-bar__column .fa-battery-full {
-  margin: 2px 2px;
+  margin: 0px 4px;
 }

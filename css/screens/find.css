@@ -1,4 +1,5 @@
 .recommended-friends {
+  height: 280px;
   padding-top: 20px;
   color: var(--gray);
   border-bottom: var(--border);
@@ -6,7 +7,7 @@
 
 .recommended-friends div {
   font-size: 17px;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -33,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 10px;
   border-bottom: var(--border);
 }
